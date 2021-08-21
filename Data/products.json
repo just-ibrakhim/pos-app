@@ -1,0 +1,407 @@
+[
+   
+    
+         {
+            "img": "https://img.icons8.com/pastel-glyph/452/pizza--v1.png",
+            "title": "Пиццы",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Пицца из половинок",
+                    "price": 78000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/5e347c8e1c8b4bc79cb16b683b113cc4_366x366.jpeg"
+                },
+                {
+                    "id": 2,
+                    "name": "Додо",
+                    "price": 59000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/5078b9f75b6242c48a3c177fe8847151_366x366.jpeg"
+                },
+                {
+                    "id": 3,
+                    "name": "Деревенская",
+                    "price": 52000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/1cd986c075b5494a852afc5d5c67d0c4_366x366.jpeg"
+                },
+                {
+                    "id": 4,
+                    "name": "Маргарита 🌱",
+                    "price": 38000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/a376f042-1454-48ba-ba3f-74bb65102703.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "Ветчина и грибы",
+                    "price": 55000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/c63ea894-2162-4707-b2c7-2c1ce8a59839.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "Пицца-пирог 🌱",
+                    "price": 76000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/5e934dc3-6f66-4745-bac1-6fbde0d4f871.jpg"
+                },
+                {
+                    "id": 7,
+                    "name": "Гавайская",
+                    "price": 45000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Pizza/ru-RU/cce870be-0fbd-487c-9fb2-bb19c5ed991d.jpg"
+                },
+                {
+                    "id": 8,
+                    "name": "Овощи и грибы 🌱",
+                    "price": 63000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/dddc90973e7842e8b8e1b51694beaa33_366x366.jpeg"
+                }
+            ]
+        },
+ {
+            "img": "https://icons.iconarchive.com/icons/flat-icons.com/flat/512/Cake-icon.png",
+            "title": "Десерты",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Рулетики с ананасами",
+                    "price": 32000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/47873e03d3ca413d84318741ebf65c61_366x366.jpeg"
+                },
+                {
+                    "id": 2,
+                    "name": "Рулетики корицей",
+                    "price": 25000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c3d2df268e1c471bb3e28e53ab9a7ff9_366x366.jpeg"
+                },
+                {
+                    "id": 3,
+                    "name": "Рулетики с брусникой",
+                    "price": 28000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/810df2a5f8d74407b570beb376f69f84_366x366.jpeg"
+                },
+                {
+                    "id": 4,
+                    "name": "Рулетики с корицей",
+                    "price": 16000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/810df2a5f8d74407b570beb376f69f84_366x366.jpeg"
+                },
+                {
+                    "id": 5,
+                    "name": "Сырники",
+                    "price": 28000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/bc8795f18c3d44cbbee638e9e43c3c43_366x366.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Пончик с начинкой",
+                    "price": 12000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c4a2ba0d7fc74ac9a7815c73a1762a0d_366x366.png"
+                },
+                {
+                    "id": 7,
+                    "name": "Пончик с глазурью",
+                    "price": 12000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/827894e242714acca7718c7f56a0a573_366x366.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Пончик шоколадный",
+                    "price": 16000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/c8bd426bc0fb4b6aaa1c49daea9cec95_366x366.png"
+                }
+            ]
+        
+    },{
+            "img": "https://icon-library.com/images/drinks-icon/drinks-icon-14.jpg",
+            "title": "Напитки",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Coca-cola",
+                    "price": 7000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/65ce315bb46e4079b9e20da8e39d93e2_366x366.jpeg"
+                },
+                {
+                    "id": 2,
+                    "name": "Sprite",
+                    "price": 7000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/71fb67295db94ea7973b8dd152b1c031_366x366.jpeg"
+                },
+                {
+                    "id": 3,
+                    "name": "Fanta",
+                    "price": 7000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/1202e7ea026a4c26ad5f50e10c351997_366x366.jpeg"
+                },
+                {
+                    "id": 4,
+                    "name": "Вода без газа",
+                    "price": 3000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/2f9217a1-0e84-4f2b-af40-cb92f391675b.jpg"
+                },
+                {
+                    "id": 5,
+                    "name": "Вода с газом",
+                    "price": 3000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/Drinks/ru-RU/72ca01f9-1e34-4e05-9f6d-d1aecc8d0a12.jpg"
+                },
+                {
+                    "id": 6,
+                    "name": "Fusetea Зеленый с манго",
+                    "price": 5000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/cb8e149aedd046ea9d0b7d3f9a2759b7_366x366.jpeg"
+                },
+                {
+                    "id": 7,
+                    "name": "Fusetea Зеленый с лимоном",
+                    "price": 5000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/0bde0b9c81b64f22a36ae677accb477d_366x366.jpeg"
+                },
+                {
+                    "id": 8,
+                    "name": "Fusetea Черный манго",
+                    "price": 5000,
+                    "size": "0,5",
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/ef3f064ec4284536a973838f7aae81ec_366x366.jpeg"
+                }
+            ]
+    },
+    {
+            "img": "https://nutaq.com/wp-content/uploads/2016/03/coffee-icon.png",
+            "title": "Кофе",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Кофе Ореховый латте",
+                    "price": 19000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/6bfe0510e6af4a6aac2b86afcf91d7ae_366x366.jpeg"
+                },
+                {
+                    "id": 2,
+                    "name": "Кофе Латте",
+                    "price": 19000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/69adaa7c66dc4ff4b460416c510498a0_366x366.jpeg"
+                },
+                {
+                    "id": 3,
+                    "name": "Кофе Карамельный капучино",
+                    "price": 18000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/0ab016a87a9840fa9da91f472ba20bfa_366x366.jpeg"
+                },
+                {
+                    "id": 4,
+                    "name": "Кофе Капучино",
+                    "price": 18000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/f6e1bfe9dfa84b51b29adc482ab5b6cb_366x366.jpeg"
+                },
+                {
+                    "id": 5,
+                    "name": "Кофе Латте",
+                    "price": 17000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/cbafb42fbc0b464e80684772b413ea18_366x366.jpeg"
+                },
+                {
+                    "id": 6,
+                    "name": "Кофе Американо",
+                    "price": 13000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/e9667112069847dbbda006896a4b0f39_366x366.jpeg"
+                },
+                {
+                    "id": 7,
+                    "name": "Кофе Американо из зёрен",
+                    "price": 12000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/821f2324bfcc4cf6b293aed690fd59b5_366x366.jpeg"
+                },
+                {
+                    "id": 8,
+                    "name": "Кофе Капучино",
+                    "price": 16000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3f84e2cc473431ca72a5cbf4b109d20_366x366.jpeg"
+                }
+            ]
+        },
+    
+     {
+            "img": "https://icons.iconarchive.com/icons/google/noto-emoji-food-drink/1024/32395-green-salad-icon.png",
+            "title": "Салаты",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Салат цезарь",
+                    "price": 20000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/5b6b86dc4a02469798bfc0c66474112d_366x366.jpeg"
+                },
+                {
+                    "id": 2,
+                    "name": "Греческий салат",
+                    "price": 23000,
+                    "quantity": "",
+                    "img": "https://dodopizza-a.akamaihd.net/static/Img/Products/e3125a599d6741128192967d5e3fc83d_366x366.jpeg"
+                }
+            ]
+        },
+    
+     {
+            "img": "https://icon-library.com/images/hamburger-icon-png/hamburger-icon-png-7.jpg",
+            "title": "Бургеры",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Чикенбургер",
+                    "price": 20500,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/04/chicken.png"
+                },
+                {
+                    "id": 2,
+                    "name": "Чизбургер",
+                    "price": 22000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/04/chiz_1.png"
+                },
+                {
+                    "id": 3,
+                    "name": "Фишбургер",
+                    "price": 24000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/06/novyj-sajt-fishburger-standart-1.png"
+                },
+                {
+                    "id": 4,
+                    "name": "Слоу",
+                    "price": 24000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/08/novyj-sajt-moskva-slou-standart.png"
+                },
+                {
+                    "id": 5,
+                    "name": "Гамбургер",
+                    "price": 13000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/05/gamburger.png"
+                },
+                {
+                    "id": 6,
+                    "name": "Классика говяжья",
+                    "price": 22000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/06/novyj-sajt-klassika-standart.png"
+                },
+                {
+                    "id": 7,
+                    "name": "Классика куринная",
+                    "price": 13000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/06/novyj-sajt-klassika-standart.png"
+                },
+                {
+                    "id": 8,
+                    "name": "Чизбургер BBQ",
+                    "price": 22000,
+                    "quantity": "",
+                    "img": "https://blackstarburger.ru/wp-content/uploads/2020/06/bud-burger.png"
+                }
+            ]
+        },
+    {
+        
+            "img": "https://image.flaticon.com/icons/png/512/648/648872.png",
+            "title": "Мороженное",
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Chocolate & salted caramel",
+                    "price": 22000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/chocolate-salted-caramel.png?itok=dIkbU69h"
+                },
+                {
+                    "id": 2,
+                    "name": "Passion fruit & mango",
+                    "price": 25000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11637_Scoop_Sorbets_Passion_Fruit%26Mango_Compo_with_labeling.png?itok=-1lxeTEV"
+                },
+                {
+                    "id": 3,
+                    "name": "Raspberry & starberry sorbet",
+                    "price": 21000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11601_Sorbets_RaspberryStrawberry_Compo_Scoop_with_labeling.png?itok=IeYh1Fem"
+                },
+                {
+                    "id": 4,
+                    "name": "Lemon & Lime sorbet",
+                    "price": 16000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11600_Sorbets_Lemon%26Lime_Compo_Scoop_with_labeling.png?itok=2QQUlI5p"
+                },
+                {
+                    "id": 5,
+                    "name": "Vanila dream",
+                    "price": 18000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11589_Classics_VanillaDream_Compo_Scoop_with_labeling.png?itok=niaTC5zX"
+                },
+                {
+                    "id": 6,
+                    "name": "Swiss chocolate",
+                    "price": 15000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11587_Classics_SwissChocolate_Compo_Scoop_with_labeling.png?itok=3OzoUlKm"
+                },
+                {
+                    "id": 7,
+                    "name": "Pistachio",
+                    "price": 17000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11583_Classics_Pistachio_Compo_Scoop_with_labeling_0.png?itok=c21zS2Xe"
+                },
+                {
+                    "id": 8,
+                    "name": "Maple walnut",
+                    "price": 20000,
+                    "quantity": "",
+                    "img": "https://www.moevenpick-icecream.com/sites/default/files/styles/listing_image/public/products/photos/11581_Classics_MapleWalnut_Compo_Scoop_with_labeling.png?itok=4JiTA8AS"
+                }
+            ]
+    }
+]

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+        body {
+            box-sizing: border-box;
+            font-family: Rajdhani;
+            padding: 0;
+            margin: 0;
+        }
+        main {
+            /* width: 80mm; */
+            line-height: 20px;
+        }
+        .dashed {
+            border-bottom: 1px dashed #000;
+        }
+        .right {
+            float: right;
+            width: 42%;
+            text-align: right;
+        }
+        .center {
+            text-align: center;
+        }
+        td {
+            font-size: 1rem;
+            display: inline-block;
+            word-break: break-all;
+        }
+        table {
+            width: 90mm;
+            border-collapse: collapse;
+        }
+        tr.footer {
+            line-height: 40px;
+            text-align: right;
+        }
+        .no {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <table id="choco">
+            <tr>
+              <td>Продажа:</td>
+              <td class="right">№ %saleId%</td>
+            </tr>
+            <tr>
+                <td>Дата и время:</td>
+                <td class="right">%saleDateTime%</td>
+            </tr>
+            <tr class="dashed">
+                <td>Клиент:</td>    
+                <td class="right">%clientName%</td>
+            </tr>
+            <!-- $array_start_items$ -->
+            <tr>
+                <td>%productName%</td>
+            </tr>
+            <tr class="dashed">
+              <td>%quantity%*%price%</td>
+              <td class="right">%total%</td>
+            </tr>
+            <!-- $array_end$ -->
+            <tr>
+                <td>Итого:</td>
+                <td class="right">%total%</td>
+            </tr>
+            <tr>
+                <td>Скидка:</td>
+                <td class="right">%discount%</td>
+            </tr>
+            <tr>
+                <td>В долг:</td>
+                <td class="right">%debt%</td>
+            </tr>
+            <tr>
+                <td>К оплате:</td>
+                <td class="right">%totalDiscountDebt%</td>
+            </tr>
+            <tr class="footer">
+                <td>t.me/hippo_uz</td>
+                <td class="right"><img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAEZElEQVR4Xu2d0W7rMAxD0///6A57WxwgBwe0k7TjfVVsS6Qo2V6a+9q27b1d+O/93i/3er12q6f2MZRxvtFu118N1S8aJeQPypQQJUQqqAqRKUMZmNq/jhCquRL/jWo01XS7niWE5rf+03wU76GHlJA9ZCVk6Bk246oQQMxm2Ph8CYFzAgE0uynbjCdCU/9ofIoP9hAKkAAjhaTzU5Oc7V8JGRClTQcRTICm9ipkQKCEQAavLlnfNv/H95ASAkXy7hpM66c1fvX8VcjDSu7jCEl3UXaba5//dwopIcMfqFZnAM1fQkrIrmrZhKFzjy2J2ENoV0J22pba8RQgXaWkgJOCKR7yr4TIPxGXEPj7CAFECk3tVhFVSKgAImw5IekCNH52DSfAZtspvtT+de9lrSY8BZzGlxBZ0gjQ1F5CnkbIm7YpKeXh+LQHhMtfPvxVQi7H/HTBEvIsPrYS8jRC0p8jUAtKe8Dsy7vUXzppE7+0LY93WWmAlrA04NTfEiLf9aUMLCFyn0+A/juF2AyyAJHkiZCr7RSftWOJHpt6CVn7k8sSEpZMqwB6voR8GiH26sSeC8aMmV0S7fxX9zBSzMGfEjL3wwWUcESQvjqpQtyXKIiAKmRAAJvsxT0Ir05o329r+N0Ko3isnXqSxocuF8lBvaC8Cpk9P8Vj7SVk+JVwCkhastL1D+OrkGyXtZyQqyVrewr5R7sa2pZaf6ik2vnw3V6SdJoh1uESAtu+ErJHIE2YKgTOJVQCp5csujqhkkI1OVWQHT8boJQQGj/ii1cnJYQgPS9ZNLqEhAdTAjitGFUIISzt0wmhEkU12tZ82pVYu8Tv8E1IGm/9ITwP841NnSYoIe76nfAsIeE2twqRnyankmNLKlUEusnQCqHXgPSE8mSfApg2Ucp461/qjz6ppxljA6SMTgEoISEjVCJoehpPFYHmTxOkCgk/i0sVgwiMT+ppBpCDNsDVGW/9TZ/XJ/USkkJ+Pr6ErMVXz15CNGRrByAha5ff9P8vMtsf6kG0Ho239hISHmQt4HTuKSElZF8EKMOoZKT2dH0ab+34bm8acHquWD3eAkYlh+yEZwkJ3263hJaQAQHK4NX2EvLphNirEWR88i6Gesrdt7UpfnjbS4CTnWqsHV9CCDGwlxAHYBUCPYbgTBNunB8JsTXZ7lIODk3+kvXqEkeEWTxKyMWvlpKiSkgJOf/aDpVI2lba8fQ8lSSyf1zJIglTwKndEkIAx/6kL8rZpkkBkQLSgO0mwsaX+nd7D6lC9hSWENnUSeFfpxAqETZg2yNofiKE7BTf4xRCDhNgaY+g+QlwslN8JYQYgKsV6oGk0AOBT9tlUQZJ/PRP1mh+UgDZKT5UCDlIdptBtO2ljCN/7Pzp8xT/ocSSQihAspNDZJ/dE1KAyR9SCK5fQoZzgPwLJyUU2asQ+QE0zOjwrRUkhEpQao8lLTM4LTFpvHb87e9laUmXEMvx+fNVyDk+Vcjk3xim6fsDEfZ3/u9tMDAAAAAASUVORK5CYII=" style="width: 50px;"></td>    
+            </tr>
+        </table>
+    </main>
+</body>
+</html>
